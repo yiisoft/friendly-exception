@@ -1,16 +1,16 @@
 {
-    "name": "yiisoft/friendlyexception",
+    "name": "yiisoft/friendly-exception",
     "type": "library",
-    "description": "friendlyexception",
+    "description": "An interface for friendlier exception",
     "keywords": ["exception", "exceptions", "error handling", "friendly"],
     "homepage": "http://www.yiiframework.com/",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/friendlyexception/issues?state=open",
+        "issues": "https://github.com/yiisoft/friendly-exception/issues?state=open",
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/friendlyexception"
+        "source": "https://github.com/yiisoft/friendly-exception"
     },
     "require": {
         "php": "^7.2"

@@ -9,5 +9,5 @@
 The package provides an interface that could be implemented by an exception to provide a friendly name and a solution
 for fixing it. Error handlers may consider the interface to render additional information right at the error screen.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/friendlyexception/v/stable.png)](https://packagist.org/packages/yiisoft/friendlyexception)
-[![Total Downloads](https://poser.pugx.org/yiisoft/friendlyexception/downloads.png)](https://packagist.org/packages/yiisoft/friendlyexception)
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/friendly-exception/v/stable.png)](https://packagist.org/packages/yiisoft/friendly-exception)
+[![Total Downloads](https://poser.pugx.org/yiisoft/friendly-exception/downloads.png)](https://packagist.org/packages/yiisoft/friendly-exception)
