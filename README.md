@@ -51,7 +51,7 @@ class ThrowableHandler
 {
     public function handle(\Throwable $t)
     {
-        if ($t instnaceof FriendlyExceptionInterface) {
+        if ($t instanceof FriendlyExceptionInterface) {
             // additional handling
         }
         // regular handling
