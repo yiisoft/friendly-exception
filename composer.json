@@ -2,7 +2,12 @@
     "name": "yiisoft/friendly-exception",
     "type": "library",
     "description": "An interface for friendlier exception",
-    "keywords": ["exception", "exceptions", "error handling", "friendly"],
+    "keywords": [
+        "exception",
+        "exceptions",
+        "error handling",
+        "friendly"
+    ],
     "homepage": "http://www.yiiframework.com/",
     "license": "BSD-3-Clause",
     "support": {
@@ -19,5 +24,8 @@
         "psr-4": {
             "Yiisoft\\FriendlyException\\": "src"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
