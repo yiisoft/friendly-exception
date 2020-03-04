@@ -11,7 +11,7 @@ namespace Yiisoft\FriendlyException;
 interface FriendlyExceptionInterface
 {
     /**
-     * @return string Friendly exception name.
+     * @return string Human understandable exception name.
      */
     public function getName(): string;
 
