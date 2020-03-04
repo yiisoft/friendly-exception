@@ -6,43 +6,46 @@
     <br>
 </p>
 
-The package provides an interface that could be implemented by an exception to provide a friendly name and a solution
-for fixing it. Error handlers may consider the interface to render additional information right at the error screen.
+The package provides an exception interface that provides a friendly name and a possible solution.
+Error handlers may consider the interface to render additional information right at the error screen.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/friendly-exception/v/stable.png)](https://packagist.org/packages/yiisoft/friendly-exception)
 [![Total Downloads](https://poser.pugx.org/yiisoft/friendly-exception/downloads.png)](https://packagist.org/packages/yiisoft/friendly-exception)
 
 ## Implementing friendly exception
 
-In order to make exception friendly require this package and implement `FriendlyExceptionInterface` in your exception:
+To make exception friendly require this package and implement `FriendlyExceptionInterface`:
 
 ```php
+<?php
+declare(strict_types=1);
+
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 class RequestTimeoutException extends \RuntimeException implements FriendlyExceptionInterface
 {
     public function getName(): string
     {
-        return "Request timed out";
+        return 'Request timed out';
     }
     
     public function getSolution(): ?string
     {
         return <<<'SOLUTION'
-Likely it is a result of resource request is not responding in a timely fashion. Try increasing timeout.
-SOLUTION;
+            Likely it is a result of resource request is not responding in a timely fashion. Try increasing timeout.
+            SOLUTION;
     }
 }
 ```
 
-When returning solution consider the following best pracices:
+When returning solution consider the following best practices:
 
 1. Make solution description as short as possible.
 2. Do not use HTML tags.
 
 ## Handling friendly exception
 
-In case you want your exception handler to render friendly exceptions you can do it like the following:
+To make your exception handler render friendly exceptions:
 
 ```php
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
