@@ -6,7 +6,7 @@
     <br>
 </p>
 
-The package provides an exception interface that provides a friendly name and a possible solution.
+An exception interface that provides a friendly name and a possible solution.
 Error handlers may consider the interface to render additional information right at the error screen.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/friendly-exception/v/stable.png)](https://packagist.org/packages/yiisoft/friendly-exception)
