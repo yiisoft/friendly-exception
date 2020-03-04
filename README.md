@@ -42,6 +42,7 @@ When returning solution consider the following best practices:
 
 1. Make solution description as short as possible.
 2. Do not use HTML tags.
+3. A simple markdown is OK but its support is up to implementation.
 
 ## Handling friendly exception
 
