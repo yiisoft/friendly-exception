@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Yiisoft\FriendlyException;
 
+use Throwable;
+
 /**
  * Provides a friendly name and a possible solution for an exception.
  * Error handlers may consider the interface to render additional information right at the error screen.
  */
-interface FriendlyExceptionInterface
+interface FriendlyExceptionInterface extends Throwable
 {
     /**
      * @return string Human understandable exception name.
