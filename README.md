@@ -18,6 +18,7 @@ To make exception friendly require this package and implement `FriendlyException
 
 ```php
 <?php
+
 declare(strict_types=1);
 
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
