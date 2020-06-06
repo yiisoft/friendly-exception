@@ -1,5 +1,9 @@
 # Friendly Exception Change Log
 
+## 1.0.1 June 7, 2020
+
+- Fix #5: Extend Throwable (xepozz)
+
 ## 1.0.0 March 4, 2020
 
 - Initial release.
