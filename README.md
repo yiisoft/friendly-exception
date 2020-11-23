@@ -27,7 +27,7 @@ class RequestTimeoutException extends \RuntimeException implements FriendlyExcep
 {
     public function getName(): string
     {
-        return 'Request timed out';
+        return 'Request timed out.';
     }
     
     public function getSolution(): ?string
