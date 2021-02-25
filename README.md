@@ -14,7 +14,7 @@ Error handlers may consider the interface to render additional information right
 
 ## Requirements
 
-- PHP 7.4 or higher.
+- PHP 7.1 or higher.
 
 ## Installation
 
