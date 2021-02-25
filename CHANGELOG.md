@@ -1,4 +1,4 @@
-# Friendly Exception Change Log
+# Yii Friendly Exception Change Log
 
 ## 1.0.2 August 20, 2020
 
