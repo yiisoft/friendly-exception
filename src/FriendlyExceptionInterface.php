@@ -19,8 +19,10 @@ interface FriendlyExceptionInterface extends Throwable
 
     /**
      * @return string|null Suggestion on how to fix an exception.
-     * Make it as short as possible. Do not use HTML tags.
-     * Simple markdown is OK but its support is up to implementation.
+     *
+     * 1. Make it as short as possible.
+     * 2. Do not use HTML tags.
+     * 3. Use simple markdown.
      */
     public function getSolution(): ?string;
 }
