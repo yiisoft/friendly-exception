@@ -1,5 +1,10 @@
 # Yii Friendly Exception Change Log
 
+
+## 1.1.1 under development
+
+- no changes in this release.
+
 ## 1.1.0 October 26, 2021
 
 - Enh #13: Specify markdown support explicitly (samdark)
