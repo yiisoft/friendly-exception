@@ -57,7 +57,7 @@ When returning solution consider the following best practices:
 
 1. Make solution description as short as possible.
 2. Do not use HTML tags.
-3. A simple markdown is OK but its support is up to implementation.
+3. Use [simple markdown](https://commonmark.org/help/).
 
 ### Handling friendly exception
 
@@ -77,6 +77,8 @@ class ThrowableHandler
     }
 }
 ```
+
+Do not forget to [render markdown](https://github.com/commonmark/commonmark-spec/wiki/List-of-CommonMark-Implementations#php).
 
 ## License
 

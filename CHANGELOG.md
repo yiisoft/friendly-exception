@@ -1,5 +1,9 @@
 # Yii Friendly Exception Change Log
 
+## 1.0.3 under development
+
+- Enh #13: Specify markdown support explicitly (samdark)
+
 ## 1.0.2 August 20, 2020
 
 - Allow installing on PHP 8 (samdark)
