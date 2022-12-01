@@ -39,7 +39,7 @@
         "rector/rector": "^0.14.3",
         "roave/infection-static-analysis-plugin": "^1.5",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^4.3"
+        "vimeo/psalm": "^5.0"
     },
     "scripts": {
         "test": "phpunit --testdox --no-interaction",
