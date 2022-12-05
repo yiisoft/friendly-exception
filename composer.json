@@ -19,7 +19,7 @@
         "source": "https://github.com/yiisoft/friendly-exception"
     },
     "require": {
-        "php": "^7.1|^8.0"
+        "php": "^7.4|^8.0"
     },
     "autoload": {
         "psr-4": {

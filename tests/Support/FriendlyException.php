@@ -9,15 +9,8 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 final class FriendlyException extends Exception implements FriendlyExceptionInterface
 {
-    /**
-     * @var string
-     */
-    private $name;
-
-    /**
-     * @var string|null
-     */
-    private $solution;
+    private string $name;
+    private ?string $solution;
 
     public function __construct(string $name = 'test', ?string $solution = null)
     {
