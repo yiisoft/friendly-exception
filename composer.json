@@ -39,11 +39,11 @@
         }
     },
     "require-dev": {
-        "maglnet/composer-require-checker": "^4.3",
+        "maglnet/composer-require-checker": "^3.8|^4.3",
         "phpunit/phpunit": "^9.5",
-        "roave/infection-static-analysis-plugin": "^1.26",
+        "roave/infection-static-analysis-plugin": "^1.18",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^5.0"
+        "vimeo/psalm": "^4.30|^5.0"
     },
     "scripts": {
         "test": "phpunit --testdox --no-interaction",
