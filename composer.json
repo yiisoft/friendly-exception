@@ -26,6 +26,11 @@
             "Yiisoft\\FriendlyException\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Yiisoft\\FriendlyException\\Tests\\": "tests"
+        }
+    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
