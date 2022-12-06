@@ -19,11 +19,16 @@
         "source": "https://github.com/yiisoft/friendly-exception"
     },
     "require": {
-        "php": "^7.1|^8.0"
+        "php": "^7.4|^8.0"
     },
     "autoload": {
         "psr-4": {
             "Yiisoft\\FriendlyException\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yiisoft\\FriendlyException\\Tests\\": "tests"
         }
     },
     "config": {
@@ -34,12 +39,11 @@
         }
     },
     "require-dev": {
-        "maglnet/composer-require-checker": "^4.2",
-        "phpunit/phpunit": "^9.4",
-        "rector/rector": "^0.14.3",
-        "roave/infection-static-analysis-plugin": "^1.5",
+        "maglnet/composer-require-checker": "^3.8|^4.3",
+        "phpunit/phpunit": "^9.5",
+        "roave/infection-static-analysis-plugin": "^1.18",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^4.3"
+        "vimeo/psalm": "^4.30|^5.0"
     },
     "scripts": {
         "test": "phpunit --testdox --no-interaction",
