@@ -31,10 +31,6 @@ composer require yiisoft/friendly-exception --prefer-dist
 To make exception friendly require this package and implement `FriendlyExceptionInterface`:
 
 ```php
-<?php
-
-declare(strict_types=1);
-
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 class RequestTimeoutException extends \RuntimeException implements FriendlyExceptionInterface
