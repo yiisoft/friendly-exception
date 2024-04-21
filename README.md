@@ -78,7 +78,7 @@ Do not forget to [render markdown](https://github.com/commonmark/commonmark-spec
 
 ## Documentation
 
-- More information can be found in the [Internals.](docs/internals.md)
+- [Internals](docs/internals.md)
 
 ## Support
 
