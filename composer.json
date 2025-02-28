@@ -53,7 +53,7 @@
         "phpunit/phpunit": "^9.5",
         "roave/infection-static-analysis-plugin": "^1.18",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^4.30|^5.0"
+        "vimeo/psalm": "^6.8.8"
     },
     "scripts": {
         "test": "phpunit --testdox --no-interaction",
