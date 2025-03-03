@@ -9,6 +9,8 @@ use Throwable;
 /**
  * Provides a friendly name and a possible solution for an exception.
  * Error handlers may consider the interface to render additional information right at the error screen.
+ *
+ * @api
  */
 interface FriendlyExceptionInterface extends Throwable
 {
