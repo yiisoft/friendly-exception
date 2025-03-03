@@ -3,7 +3,7 @@
 ## 1.2.0 under development
 
 - Chg #20: Bump minimal required PHP version to 7.4 (@vjik)
-- Chg #35: Change PHP constraint in `composer.json` to `7.4.* || 8.0 - 8.4` (@vjik)
+- Chg #36: Change PHP constraint in `composer.json` to `7.4.* || 8.0 - 8.4` (@vjik)
 
 ## 1.1.0 October 26, 2021
 
