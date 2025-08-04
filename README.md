@@ -12,6 +12,10 @@
 An exception interface that provides a friendly name and a possible solution.
 Error handlers may consider the interface to render additional information right at the error screen.
 
+<p align="center">
+    <img src="docs/images/friendly-exception-light.png" alt="Light theme" >
+</p>
+
 ## Requirements
 
 - PHP 7.4 or higher.
