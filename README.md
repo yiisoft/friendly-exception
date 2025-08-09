@@ -12,6 +12,14 @@
 An exception interface that provides a friendly name and a possible solution.
 Error handlers may consider the interface to render additional information right at the error screen.
 
+Example of implementation in [Yii Error Handler](https://github.com/yiisoft/error-handler):
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="docs/images/friendly-exception-dark.png">
+ <source media="(prefers-color-scheme: light)" srcset="docs/images/friendly-exception-light.png">
+ <img alt="Frendly exception" src="docs/images/friendly-exception-light.png">
+</picture>
+
 ## Requirements
 
 - PHP 7.4 or higher.
