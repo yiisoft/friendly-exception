@@ -1,5 +1,9 @@
 # Yii Friendly Exception Change Log
 
+## 1.2.1 under development
+
+- no changes in this release.
+
 ## 1.2.0 November 28, 2025
 
 - Chg #20: Bump minimal required PHP version to 7.4 (@vjik)
