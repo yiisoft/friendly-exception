@@ -22,7 +22,7 @@ Example of implementation in [Yii Error Handler](https://github.com/yiisoft/erro
 
 ## Requirements
 
-- PHP 7.4 or higher.
+- PHP 7.4 - 8.5.
 
 ## Installation
 
