@@ -15,4 +15,4 @@ concurrency:
 
 jobs:
   changelog:
-    uses: yiisoft/actions/.github/workflows/changelog.yml@master
+    uses: yiisoft/actions/.github/workflows/changelog.yml@changelog
