@@ -2,7 +2,7 @@
 
 ## 1.2.1 under development
 
-- no changes in this release.
+- Enh XX: test...
 
 ## 1.2.0 November 28, 2025
 

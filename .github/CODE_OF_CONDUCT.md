@@ -5,7 +5,7 @@
 As contributors and maintainers of this project, and in order to keep Yii community open and welcoming, we ask to
 respect all community members.
 
-## Our Standards!
+## Our Standards
 
 Examples of behavior that contributes to a positive environment for our community include:
 
