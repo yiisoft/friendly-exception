@@ -7,5 +7,5 @@ use ShipMonk\ComposerDependencyAnalyser\Config\Configuration;
 return (new Configuration())
     ->disableComposerAutoloadPathScan()
     ->setFileExtensions(['php'])
-    ->addPathToScan(__DIR__ . '/src', isDev: false)
-    ->addPathToScan(__DIR__ . '/tests', isDev: true);
+    ->addPathToScan(__DIR__ . '/src', false)
+    ->addPathToScan(__DIR__ . '/tests', true);
