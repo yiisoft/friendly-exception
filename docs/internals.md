@@ -18,9 +18,9 @@ The code is statically analyzed with [Psalm](https://psalm.dev/). To run static 
 
 ## Dependencies
 
-This package uses [composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) to check if
-all dependencies are correctly defined in `composer.json`. To run the checker, execute the following command:
+Use [Composer Dependency Analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) to detect unknown,
+shadow, and unused [Composer](https://getcomposer.org) dependencies:
 
 ```shell
-./vendor/bin/composer-require-checker
+./vendor/bin/composer-dependency-analyser
 ```
