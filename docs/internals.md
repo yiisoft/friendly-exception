@@ -10,10 +10,10 @@ The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
 
 ## Static analysis
 
-The code is statically analyzed with [Psalm](https://psalm.dev/). To run static analysis:
+The code is statically analyzed with [PHPStan](https://phpstan.org/). To run static analysis:
 
 ```shell
-./vendor/bin/psalm
+./vendor/bin/phpstan
 ```
 
 ## Dependencies
