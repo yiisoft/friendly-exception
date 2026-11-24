@@ -27,9 +27,6 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
-# phpunit cache
-.phpunit.result.cache
 
 # PHP CS Fixer
-/.php-cs-fixer.cache
 /.php-cs-fixer.php
