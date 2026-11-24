@@ -1,6 +1,6 @@
 # Yii Friendly Exception Change Log
 
-## 1.2.1 under development
+## 1.2.1 November 24, 2026
 
 - Chg #52: Replace Psalm with PHPStan (@vjik)
 - Enh #53: Add PHP 8.6 support (@vjik)
